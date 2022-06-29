@@ -4,6 +4,7 @@ project(qualisys_cpp_sdk)
 option(BUILD_EXAMPLES "Build examples" OFF)
 
 add_library(${PROJECT_NAME}
+	SHARED
         Markup.cpp
         Network.cpp
         RTPacket.cpp
